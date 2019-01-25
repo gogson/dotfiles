@@ -1,6 +1,6 @@
-alias ll='ls -l'
-alias la='ls -A'
-alias l='ls -CF'
+alias ll='ls -lah'
+alias la='ls -Alh'
+alias l='ls -CFlh'
 alias gits='git status'
 
 parse_git_branch() {
