@@ -1,5 +1,4 @@
 (fset 'yes-or-no-p 'y-or-n-p)
-(normal-erase-is-backspace-mode 1)
 
 (set-face-attribute 'default (selected-frame) :height 95)
 (custom-set-variables
@@ -73,5 +72,7 @@
 (setq auto-save-default nil)
 (setq make-backup-files nil)
 (setq create-lockfiles nil)
+
+(setq vc-follow-symlinks t)
 
 ;; EOF
