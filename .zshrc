@@ -98,9 +98,14 @@ source $ZSH/oh-my-zsh.sh
 # System
 alias ls='ls -Glha'
 alias clean='rm -rf *~; rm -f \#*\#'
+alias dcu='docker-compose up'
+
+# Mac
+alias flushdns='sudo killall -HUP mDNSResponder'
 
 # Git
 alias gits='git status'
+alias gitc="git lazy"
 
 # System
 alias ls='ls -Glha'
